@@ -1,0 +1,438 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <p>Click this document to activate the handler.</p>-->
+<!--<script>-->
+<!--    window.addEventListener("click", ()=> {-->
+<!--        console.log("You knocked?")-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<button>Click me</button>-->
+<!--<script>-->
+<!--    let button = document.querySelector("button");-->
+<!--    button.addEventListener("click", () => {-->
+<!--        alert("Button clicked.")-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<button>Act-once button</button>-->
+<!--<script>-->
+<!--    let button = document.querySelector("button");-->
+<!--    function once() {-->
+<!--        alert("Done.")-->
+<!--        button.removeEventListener("click", once)-->
+<!--    }-->
+<!--    button.addEventListener("click", once)-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<button>Click me any way you want</button>-->
+<!--<script>-->
+<!--    let button = document.querySelector("button");-->
+<!--    button.addEventListener("mousedown", event => {-->
+<!--        if (event.button == 0) {-->
+<!--            alert("Left button")-->
+<!--        } else if (event.button == 1) {-->
+<!--            alert("Middle button")-->
+<!--        } else if (event.button == 2) {-->
+<!--            alert("Right button.")-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>A paragraph with a <button>button</button>.</p>-->
+<!--<script>-->
+<!--    let para = document.querySelector("p")-->
+<!--    let button = document.querySelector("button")-->
+<!--    para.addEventListener("mousedown", event => {-->
+<!--        console.log("Handler for paragraph.")-->
+<!--    })-->
+<!--    button.addEventListener("mousedown", event => {-->
+<!--        console.log("Handler for button.")-->
+<!--        if (event.button == 2) event.stopPropagation()-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash;父亲包含事件函数 点击 子节点也会调用父亲的&ndash;&gt;-->
+<!--<p>123123123     -->
+<!--<button>Click me</button>-->
+<!--</p>-->
+<!--<script>-->
+<!--    let button = document.querySelector("p");-->
+<!--    button.addEventListener("click", event => {-->
+<!--        alert("Button clicked." + event.target.nodeName)-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<button>A</button>-->
+<!--<button>B</button>-->
+<!--<button>C</button>-->
+<!--<script>-->
+<!--    document.body.addEventListener("click", event=>{-->
+<!--        if(event.target.nodeName == "BUTTON") {-->
+<!--            alert("Clicked:"+ event.target.textContent)-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<a href="https://developer.mozilla.org">MDN</a>-->
+<!--<script>-->
+<!--    let link = document.querySelector("a")-->
+<!--    link.addEventListener("click", event=> {-->
+<!--        alert("Nope.")-->
+<!--        event.preventDefault()-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>This page turns violent when you hold the V key</p>-->
+<!--<script>-->
+<!--    window.addEventListener("keydown", event=>{-->
+<!--        if(event.key == "v") {-->
+<!--            console.log(123)-->
+<!--            document.body.style.background = "violet"   //event.target 是 document.body-->
+<!--        }-->
+<!--    })-->
+<!--    window.addEventListener("keyup", event=> {-->
+<!--        if(event.key == "v") {-->
+<!--            document.body.style.background = "";-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>Press Control-Space to continue.</p>-->
+<!--<script>-->
+<!--    window.addEventListener("keydown", event=>{-->
+<!--        if(event.key == "q" && event.ctrlKey) {-->
+<!--            alert("Continuing!!!")-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<style>-->
+<!--    body {-->
+<!--        height: 200px;-->
+<!--        background: beige;-->
+<!--    }-->
+<!--    .dot {-->
+<!--        height: 8px; width: 8px;-->
+<!--        border-radius: 4px;-->
+<!--        background: blue;-->
+<!--        position: absolute;-->
+<!--    }-->
+<!--</style>-->
+<!--<body>-->
+<!--<script>-->
+<!--    window.addEventListener("click", event=>{-->
+<!--        let dot = document.createElement("div")-->
+<!--        dot.className = "dot"-->
+<!--        dot.style.left = (event.pageX -4) + "px"-->
+<!--        dot.style.top = (event.pageY -4) + "px"-->
+<!--        document.body.appendChild(dot)-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>Drag the bar to change its width</p>-->
+<!--<div style="background: orange; width: 60px; height: 20px"></div>-->
+<!--<script>-->
+<!--    let lastX-->
+<!--    let bar = document.querySelector("div")-->
+<!--    bar.addEventListener("mousedown", event=>{-->
+<!--        if(event.button == 0) {-->
+<!--            lastX = event.clientX;-->
+<!--            window.addEventListener("mousemove", moved)-->
+<!--            event.preventDefault(); //防止 点击选中啥东西 很乱-->
+<!--        }-->
+<!--    })-->
+<!--    function moved(event) {-->
+<!--        console.log(event.type)-->
+<!--        if(event.buttons == 0) {-->
+<!--            window.removeEventListener("mousemove", moved)-->
+<!--        } else {-->
+<!--            let dist = event.clientX - lastX;-->
+<!--            let newWidth = Math.max(10, bar.offsetWidth + dist)-->
+<!--            bar.style.width = newWidth + "px"-->
+<!--            lastX = event.clientX;-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<style>-->
+<!--    dot {-->
+<!--        position: absolute; display: block;-->
+<!--        border: 2px solid red; border-radius: 50px;-->
+<!--        height: 100px; width: 100px;-->
+<!--    }-->
+<!--</style>-->
+<!--<body>-->
+<!--<p>Touch this page</p>-->
+<!--<script>-->
+<!--    function update(event) {-->
+<!--        for (let dot ; dot =document.querySelector("dot");) {-->
+<!--            dot.remove();-->
+<!--        }-->
+<!--        for (let i=0; i<event.touches.length; i++){-->
+<!--            let {pageX, pageY} = event.touches[i]-->
+<!--            let dot = document.createElement("dot")-->
+<!--            dot.style.left = (pageX - 50) + "px"-->
+<!--            dot.style.top = (pageY - 50) + "px"-->
+<!--            document.body.appendChild(dot)-->
+<!--        }-->
+<!--    }-->
+<!--    window.addEventListener("touchstart", update)-->
+<!--    window.addEventListener("touchmove", update)-->
+<!--    window.addEventListener("touchend", update)-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+<!--这个太麻烦 没有演示成功-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<style>-->
+<!--    #progress {-->
+<!--        border-bottom: 5px solid red;-->
+<!--        width: 0;-->
+<!--        position: fixed;-->
+<!--        top: 0; left: 0;-->
+<!--    }-->
+<!--</style>-->
+<!--<div id="progress"></div>-->
+<!--<script>-->
+<!--    document.body.appendChild(document.createTextNode(-->
+<!--        "supercalifragilisticexpialidocious ".repeat(1000)));-->
+<!--    let bar = document.querySelector("#progress")-->
+<!--    window.addEventListener("scroll", ()=>{-->
+<!--        let max = document.body.scrollHeight - innerHeight;-->
+<!--        bar.style.width = `${(pageYOffset / max) * 100}%`-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<style>-->
+<!--</style>-->
+<!--<p>Name: <input type="text" data-help="Your full name"></p>-->
+<!--<p>Age: <input type="text" data-help="Your age in years"></p>-->
+<!--<p id="help"></p>-->
+<!--<script>-->
+<!--    let help = document.querySelector("#help")-->
+<!--    let fields = document.querySelectorAll("input")-->
+<!--    for (let field of Array.from(fields)) {-->
+<!--        field.addEventListener("focus", event => {-->
+<!--            let text = event.target.getAttribute("data-help")-->
+<!--            help.textContent = text-->
+<!--        })-->
+<!--        field.addEventListener("blur", event => {-->
+<!--            help.textContent = "";-->
+<!--        })-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<style>-->
+<!--</style>-->
+<!--<script>-->
+<!--    let squareworker = new Worker("https://eloquentjavascript.net/code/squareworker.js")   //本地不行-->
+<!--    squareworker.addEventListener("message", event=> {-->
+<!--        console.log("The worker responded:", event.data)-->
+<!--    })-->
+<!--    squareworker.postMessage(10)-->
+<!--    squareworker.postMessage(24)-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<style>-->
+<!--</style>-->
+<!--<script>-->
+<!--    // let bombTimer = setTimeout(() => {-->
+<!--    //     console.log("BOOM!")-->
+<!--    // }, 500)-->
+<!--    // if (Math.random() < 0.5) {-->
+<!--    //     console.log("Defused.")-->
+<!--    //     clearTimeout(bombTimer)-->
+<!--    // }-->
+
+<!--    let ticks = 0;-->
+<!--    let clock = setInterval(()=> {-->
+<!--        console.log("tick", ticks++);-->
+<!--        if(ticks == 10) {-->
+<!--            clearInterval(clock)-->
+<!--            console.log("stop.")-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<textarea>Type something here...</textarea>-->
+<script>
+    // let textarea = document.querySelector("textarea")
+    // let timeout
+    // textarea.addEventListener("input", ()=> {
+    //     clearTimeout(timeout)
+    //     timeout = setTimeout(() => console.log("Typed!"), 500)
+    // })
+
+    let scheduled = null;
+    window.addEventListener("mousemove", event=> {
+        if (!scheduled) {
+            setTimeout(() =>{
+                document.body.textContent = `Mouse at ${scheduled.pageX}, ${scheduled.pageY}`;
+                scheduled = null
+            }, 1000)
+        }
+        scheduled = event
+    })
+</script>
+</body>
+</html>
+

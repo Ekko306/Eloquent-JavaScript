@@ -1,0 +1,12 @@
+{
+  "name": "Eloquent Javascript",
+  "version": "1.0.0",
+  "dependencies": {
+    "ini": "^1.3.5",
+    "mime": "^2.2.0"
+  },
+  "devDependencies": {
+    "date-names": "^0.1.13",
+    "ordinal": "^1.0.3"
+  }
+}

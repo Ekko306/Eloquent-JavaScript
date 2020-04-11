@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9715a2e-ceb0-4ac9-a222-eb78d36a2089" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Eloquent Javascript">
+      <favorite_root url="file://$PROJECT_DIR$/Skill-Sharing Website/public/skillsharing_client.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XTiPJxSwg8WC0dAbQaVgX3U10Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.3.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunManager" selected="Node.js.Unnamed">
+    <configuration name="C14_Document Object Model.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Eloquent Javascript/C18_Http and Forms.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="11_async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/11_async.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="C10_Modules.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/C10_Modules.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="C11_Asynchronous Programming.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/C11_Asynchronous Programming.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="C12_Project: A Programming Language.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/C12_Project: A Programming Language.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="C20_node.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.C14_Document Object Model.html" />
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="Node.js.C10_Modules.js" />
+      <item itemvalue="Node.js.C11_Asynchronous Programming.js" />
+      <item itemvalue="Node.js.C12_Project: A Programming Language.js" />
+      <item itemvalue="Node.js.11_async.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.11_async.js" />
+        <item itemvalue="JavaScript Debug.C14_Document Object Model.html" />
+        <item itemvalue="Node.js.C12_Project: A Programming Language.js" />
+        <item itemvalue="Node.js.C11_Asynchronous Programming.js" />
+        <item itemvalue="Node.js.C10_Modules.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9715a2e-ceb0-4ac9-a222-eb78d36a2089" name="Default Changelist" comment="" />
+      <created>1581076460848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581076460848</updated>
+      <workItem from="1581076465697" duration="346000" />
+      <workItem from="1581130272667" duration="315000" />
+      <workItem from="1581131087411" duration="142000" />
+      <workItem from="1581164814439" duration="4415000" />
+      <workItem from="1581178083870" duration="189000" />
+      <workItem from="1581179549170" duration="2163000" />
+      <workItem from="1581214237654" duration="262000" />
+      <workItem from="1581228749165" duration="5000" />
+      <workItem from="1581231029484" duration="3630000" />
+      <workItem from="1581254689775" duration="142000" />
+      <workItem from="1581298335137" duration="5813000" />
+      <workItem from="1581324227386" duration="2647000" />
+      <workItem from="1581333042495" duration="1884000" />
+      <workItem from="1581390630546" duration="408000" />
+      <workItem from="1581495086433" duration="6109000" />
+      <workItem from="1581597511883" duration="680000" />
+      <workItem from="1581642981928" duration="237000" />
+      <workItem from="1581661702707" duration="2236000" />
+      <workItem from="1581672854273" duration="6214000" />
+      <workItem from="1581749894386" duration="345000" />
+      <workItem from="1581756089366" duration="1775000" />
+      <workItem from="1581759265834" duration="4861000" />
+      <workItem from="1581849001681" duration="243000" />
+      <workItem from="1581853928136" duration="275000" />
+      <workItem from="1581865337909" duration="96000" />
+      <workItem from="1582007869091" duration="6205000" />
+      <workItem from="1582103693746" duration="779000" />
+      <workItem from="1582109703985" duration="30000" />
+      <workItem from="1582109768588" duration="740000" />
+      <workItem from="1582113179085" duration="32000" />
+      <workItem from="1582120548853" duration="2255000" />
+      <workItem from="1582187458746" duration="3429000" />
+      <workItem from="1582246921444" duration="116000" />
+      <workItem from="1582258396138" duration="317000" />
+      <workItem from="1582357515542" duration="9518000" />
+      <workItem from="1582425782793" duration="1822000" />
+      <workItem from="1582453431104" duration="11657000" />
+      <workItem from="1582515002095" duration="33000" />
+      <workItem from="1582709205886" duration="5243000" />
+      <workItem from="1582883554804" duration="35000" />
+      <workItem from="1582946152205" duration="929000" />
+      <workItem from="1582955633653" duration="10000" />
+      <workItem from="1582968526859" duration="1300000" />
+      <workItem from="1582975394427" duration="3564000" />
+      <workItem from="1583027377867" duration="3009000" />
+      <workItem from="1583052293026" duration="3556000" />
+      <workItem from="1583240847267" duration="1586000" />
+      <workItem from="1583290302118" duration="62000" />
+      <workItem from="1583376693454" duration="11047000" />
+      <workItem from="1583463203378" duration="173000" />
+      <workItem from="1583466264780" duration="1187000" />
+      <workItem from="1583591061887" duration="1279000" />
+      <workItem from="1583627878433" duration="1826000" />
+      <workItem from="1583663906937" duration="138000" />
+      <workItem from="1583713143706" duration="81000" />
+      <workItem from="1583743860775" duration="342000" />
+      <workItem from="1583754431120" duration="8859000" />
+      <workItem from="1583798653323" duration="264000" />
+      <workItem from="1583836545180" duration="4589000" />
+      <workItem from="1583845969406" duration="164000" />
+      <workItem from="1583912701305" duration="11373000" />
+      <workItem from="1583974592446" duration="2334000" />
+      <workItem from="1583994038166" duration="240000" />
+      <workItem from="1584008947275" duration="2082000" />
+      <workItem from="1584092067519" duration="624000" />
+      <workItem from="1584100284132" duration="526000" />
+      <workItem from="1584148340652" duration="3887000" />
+      <workItem from="1584257891350" duration="262000" />
+      <workItem from="1584273153626" duration="148000" />
+      <workItem from="1584321578257" duration="7844000" />
+      <workItem from="1584363972670" duration="207000" />
+      <workItem from="1584408500225" duration="4645000" />
+      <workItem from="1584462434674" duration="39000" />
+      <workItem from="1584497564831" duration="4112000" />
+      <workItem from="1584539520307" duration="9323000" />
+      <workItem from="1584607950627" duration="32000" />
+      <workItem from="1584607985843" duration="669000" />
+      <workItem from="1585137315153" duration="612000" />
+      <workItem from="1585184372965" duration="168000" />
+      <workItem from="1585293620252" duration="809000" />
+      <workItem from="1585314441541" duration="2739000" />
+      <workItem from="1585550129803" duration="1874000" />
+      <workItem from="1585557720589" duration="1587000" />
+      <workItem from="1585569539698" duration="6000" />
+      <workItem from="1585739458118" duration="4244000" />
+      <workItem from="1585790338334" duration="2872000" />
+      <workItem from="1585814292094" duration="8285000" />
+      <workItem from="1585926851351" duration="1198000" />
+      <workItem from="1585964004929" duration="142000" />
+      <workItem from="1585994687727" duration="443000" />
+      <workItem from="1585995261331" duration="2839000" />
+      <workItem from="1586002280170" duration="241000" />
+      <workItem from="1586051715511" duration="3662000" />
+      <workItem from="1586085217016" duration="24000" />
+      <workItem from="1586085521643" duration="5710000" />
+      <workItem from="1586133457845" duration="6192000" />
+      <workItem from="1586152236261" duration="4273000" />
+      <workItem from="1586173013496" duration="3775000" />
+      <workItem from="1586221800828" duration="6225000" />
+      <workItem from="1586242169573" duration="7608000" />
+      <workItem from="1586332602219" duration="7187000" />
+      <workItem from="1586357109599" duration="10000" />
+      <workItem from="1586394532039" duration="12000" />
+      <workItem from="1586417497446" duration="7738000" />
+      <workItem from="1586482810681" duration="1000" />
+      <workItem from="1586483053365" duration="2643000" />
+      <workItem from="1586487862017" duration="10000" />
+      <workItem from="1586497380743" duration="7121000" />
+      <workItem from="1586517774219" duration="233000" />
+      <workItem from="1586527249909" duration="1520000" />
+      <workItem from="1586528792888" duration="3342000" />
+      <workItem from="1586577030253" duration="15248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="126" key="#C10_Modules" timestamp="1582719769667">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="126" key="#C10_Modules/0.0.1440.900@0.0.1440.900" timestamp="1582719769667" />
+    <state x="320" y="115" key="#Notifications" timestamp="1582357670528">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1582357670528" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586422778451">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586422778451" />
+    <state x="184" y="132" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1586246092183" />
+    <state x="426" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582717354333">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="426" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1582717354333" />
+    <state x="309" y="256" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1582946501210">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="309" y="256" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1440.900@0.0.1440.900" timestamp="1582946501210" />
+    <state width="735" height="163" key="GridCell.Tab.0.bottom" timestamp="1586441970945">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586430011264" />
+    <state width="735" height="163" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586441970945" />
+    <state width="735" height="163" key="GridCell.Tab.0.center" timestamp="1586441970941">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586430011262" />
+    <state width="735" height="163" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586441970941" />
+    <state width="735" height="163" key="GridCell.Tab.0.left" timestamp="1586441970939">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586430011260" />
+    <state width="735" height="163" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586441970939" />
+    <state width="735" height="163" key="GridCell.Tab.0.right" timestamp="1586441970944">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586430011263" />
+    <state width="735" height="163" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586441970944" />
+    <state width="735" height="163" key="GridCell.Tab.1.bottom" timestamp="1586441970949">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586430011268" />
+    <state width="735" height="163" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586441970949" />
+    <state width="735" height="163" key="GridCell.Tab.1.center" timestamp="1586441970947">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586430011266" />
+    <state width="735" height="163" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586441970947" />
+    <state width="735" height="163" key="GridCell.Tab.1.left" timestamp="1586441970946">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586430011265" />
+    <state width="735" height="163" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586441970946" />
+    <state width="735" height="163" key="GridCell.Tab.1.right" timestamp="1586441970948">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586430011267" />
+    <state width="735" height="163" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586441970948" />
+    <state width="735" height="163" key="GridCell.Tab.2.bottom" timestamp="1586441970954">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586430011272" />
+    <state width="735" height="163" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586441970954" />
+    <state width="735" height="163" key="GridCell.Tab.2.center" timestamp="1586441970952">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1586430011270" />
+    <state width="735" height="163" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1586441970952" />
+    <state width="735" height="163" key="GridCell.Tab.2.left" timestamp="1586441970950">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1586430011269" />
+    <state width="735" height="163" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1586441970950" />
+    <state width="735" height="163" key="GridCell.Tab.2.right" timestamp="1586441970953">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1586430011271" />
+    <state width="735" height="163" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1586441970953" />
+    <state width="735" height="163" key="GridCell.Tab.3.bottom" timestamp="1586441970958">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586430011275" />
+    <state width="735" height="163" key="GridCell.Tab.3.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586441970958" />
+    <state width="735" height="163" key="GridCell.Tab.3.center" timestamp="1586441970956">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1586430011274" />
+    <state width="735" height="163" key="GridCell.Tab.3.center/0.23.1440.877@0.23.1440.877" timestamp="1586441970956" />
+    <state width="735" height="163" key="GridCell.Tab.3.left" timestamp="1586441970955">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1586430011273" />
+    <state width="735" height="163" key="GridCell.Tab.3.left/0.23.1440.877@0.23.1440.877" timestamp="1586441970955" />
+    <state width="735" height="163" key="GridCell.Tab.3.right" timestamp="1586441970957">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="735" height="163" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1586430011274" />
+    <state width="735" height="163" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1586441970957" />
+    <state x="333" y="149" width="982" height="722" key="SettingsEditor" timestamp="1584607980099">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="333" y="149" width="982" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584607980099" />
+    <state x="229" y="110" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1581759210437" />
+    <state x="697" y="23" width="743" height="877" key="dock-window-1" timestamp="1586597526241">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="697" y="23" width="743" height="877" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1586597526241" />
+    <state x="457" y="23" width="698" height="877" key="dock-window-2" timestamp="1586599498770">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="23" width="698" height="877" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1586599498770" />
+    <state x="742" y="23" width="698" height="877" key="dock-window-2/0.23.1440.877@0.23.1440.877" timestamp="1586597969655" />
+    <state x="390" y="191" width="659" height="518" key="find.popup" timestamp="1586177422573">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="390" y="191" width="659" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1586177422573" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1584344311478">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1584344311478" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586592912598">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586592912598" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C5_Higher-Ordered Function.js</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C5_Higher-Ordered Function.js</url>
+          <line>137</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C7_Robot.js</url>
+          <line>104</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C7_Robot.js</url>
+          <line>65</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C7_Robot.js</url>
+          <line>135</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C10_Modules.js</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C11_Asynchronous Programming.js</url>
+          <line>256</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C14_Document Object Model.html</url>
+          <line>88</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C14_Document Object Model.html</url>
+          <line>228</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C14_Document Object Model.html</url>
+          <line>231</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C14_Document Object Model.html</url>
+          <line>230</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C16_A Platform Game.html</url>
+          <line>35</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/C16_A Platform Game.html</url>
+          <line>124</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
