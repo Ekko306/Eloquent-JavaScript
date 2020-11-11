@@ -41,18 +41,19 @@ class VillageState {    //到一个点 该做啥
             let parcels = this.parcels.map(p => {
                 if(p.place != this.place) return p    //这个包裹是plcae是起点 address是终点 如果现在位置不等于起点 不拿起 否则拿起到下一步更新到目的地
                 return {place: destination, address: p.address}  // 给拿到的包裹更新现在place
-            }).filter(p => p.place != p.address)  //检查包裹 有现在place == 目的地 放在不要
+            })
+            parcels = parcels.filter(p => p.place != p.address)  //检查包裹 有现在place == 目的地 放在不要
             return new VillageState(destination, parcels)
         }
     }
 }
 
-let first = new VillageState(
-    "Post Office",
-    [{place:"Post Office", address: "Alice's House"}]
-)
-let next = first.move("Alice's House")
-// console.log(next)
+// let first = new VillageState(
+//     "Post Office",
+//     [{place:"Post Office", address: "Alice's House"}]
+// )
+// let next = first.move("Alice's House")
+// // console.log(next)
 
 
 
@@ -108,16 +109,15 @@ function routeRobot(state, memory) {
     return {direction: memory[0], memory: memory.slice(1)}
 }
 
-// runRobot(VillageState.random(), routeRobot, mailRoute.reverse())    //路线机器人版本
+// runRobot(VillageState.random(), routeRobot, [])    //路线机器人版本
 
 function findRoute(graph, from, to) {
     let work = [{at: from, route: []}];
     for (let i = 0; i < work.length; i++) {
         let {at, route} = work[i];
-        for (let place of graph[at]) {//找起点连接的位置
-            if (place === to) return route.concat(place); //如果at的下一点是终点，返回返回包含终点的路线
-            if (work.some(w => w.at !== place)) { //这里没有找到，就把连接起始点的一条路径添加到work
-                // 尼玛是一条恒true的没用 上面找不到，再遍历路线肯定找不到呀 at就是place要找的 还看半天
+        for (let place of graph[at]) {
+            if (place === to) return route.concat(place);
+            if (!work.some(w => w.at == place)) {
                 work.push({at: place, route: route.concat(place)});
             }
         }

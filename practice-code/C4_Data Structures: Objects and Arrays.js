@@ -47,11 +47,12 @@
 //
 // addEntry(["work", "touched tree", "pizza", "running",
 //     "television"], false);
+// console.log(journal[0].events)
 // addEntry(["work", "ice cream", "cauliflower", "lasagna",
 //     "touched tree", "brushed teeth"], false);
 // addEntry(["weekend", "cycling", "break", "peanuts",
 //     "beer"], true);
-//
+
 // function phi(table) {
 //     return (table[3] * table[0] - table[2] * table[1])/
 //         Math.sqrt((table[2] + table[3]) *
@@ -159,6 +160,92 @@
 // console.log(randomPointOnCircle(2))
 // console.log(Math.floor(Math.random() * 100))
 
-let string = JSON.stringify({squirrel: false, events: ["weekend"]})
-console.log(string)      //和普通一样  只不过类型是JSON
-console.log(JSON.parse(string).events)
+// let string = JSON.stringify({squirrel: false, events: ["weekend"]})
+// console.log(string)      //和普通一样  只不过类型是JSON
+// console.log(JSON.parse(string).events)
+
+
+// EXERCISES
+// The sum of a range
+// function range(start, end, step=1){
+//     let ans = []
+//     for(let i = start; i<=end; i+=step){
+//         ans.push(i)
+//     }
+//     for(let i = start; i>=end; i--){
+//         ans.push(i)
+//     }
+//     return ans
+// }
+// console.log(range(5,2,-1))
+
+// function sum(numbers){
+//     let sum = 0
+//     for(let number of numbers){
+//         sum += number
+//     }
+//     return sum
+// }
+//
+// console.log(sum(range(1,10)))
+
+
+// Reversing an array
+// function reverseArray(array){
+//     let ans = []
+//     for(let arr of array){
+//         ans.unshift(arr)
+//     }
+//     return ans
+// }
+//
+// function reverseArrayInPlace(array){
+//     for(let i = 0; i< Math.floor(array.length / 2); i++){
+//         let copy = [...array]
+//         array[i] = array[array.length - 1 - i]
+//         array[array.length - 1 - i] = copy[i]
+//     }
+//     console.log(array)
+// }
+//
+// reverseArrayInPlace([1,2,3,4,5,6,6])
+
+
+// // A list
+// function prepend(value, rest){
+//     let temp = []
+//     temp.push({value, rest})
+//     return temp[0]
+// }
+//
+// // console.log(prepend(10, prepend(20, null)))
+//
+// function arrayToList(array){
+//     let ans = null
+//     for (let arr of array.reverse()){
+//         ans = prepend(arr, ans)
+//     }
+//     return ans
+// }
+//
+//
+// function listToArray(list){
+//     let ans = []
+//     for(let node = list ; node; node = node.rest){
+//         ans.push(node.value)
+//     }
+//     return ans
+// }
+//
+// function nth(list, index){
+//     return listToArray(list)[index] == null ? null:listToArray(list)[index];
+// }
+//
+// console.log(arrayToList([10, 20]));
+// // → {value: 10, rest: {value: 20, rest: null}}
+// console.log(listToArray(arrayToList([10, 20, 30])));
+// // → [10, 20, 30]
+// console.log(prepend(10, prepend(20, null)));
+// // → {value: 10, rest: {value: 20, rest: null}}
+// console.log(nth(arrayToList([10, 20, 30]), 1));
+// // → 20

@@ -10,7 +10,7 @@
 
 function handleAction(state, action) {
   if(action.type == "setUser"){
-    locoalStorage.setItem("userName", action.user)
+    localStorage.setItem("userName", action.user)
     return Object.assign({}, state, {user: action.user})
   } else if (action.type == "setTalks"){
     return Object.assign({}, state, {talks: action.talks})

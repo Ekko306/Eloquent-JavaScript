@@ -1,4 +1,5 @@
-//创建新函数
+// ***[Higher-order functions]***
+// 创建新函数
 // function greaterThan(n) {
 //     return m => m > n
 // }
@@ -26,7 +27,7 @@
 // function unless(test, then) {
 //     if (!test) then();
 // }
-//
+
 // repeat(3, n => {
 //     unless(n % 2 == 1, () => {
 //         console.log(n, "is even")
@@ -36,7 +37,10 @@
 // const clas = ["A", "B"]
 // clas.forEach(l => console.log(l))
 
-require('./scripts.js')
+
+
+// ***[Script data set]***
+// require('./scripts.js')
 // function filter(array, test){
 //     let passed =[]
 //     for (let element of array) {
@@ -48,16 +52,21 @@ require('./scripts.js')
 // }
 // console.log(filter(SCRIPTS, script => script.living))
 // console.log(SCRIPTS.filter(s => s.direction == "ttb"))
-// function map(array, transform) {
-//     let mapped = [];
-//     for (let element of array) {
-//         mapped.push(transform(element));
-//     }
-//     return mapped
-// }
-// let rtlScripts = SCRIPTS.filter(s=> s.direction == "rtl")
-// console.log(map(rtlScripts, s=>s.name))
-// // console.log(rtlScripts)
+
+
+
+
+// ***[Transforming with map]***
+function map(array, transform) {
+    let mapped = [];
+    for (let element of array) {
+        mapped.push(transform(element));
+    }
+    return mapped
+}
+let rtlScripts = SCRIPTS.filter(s=> s.direction == "rtl")
+console.log(map(rtlScripts, s=>s.name))
+console.log(rtlScripts)
 
 // function reduce(array, combine, start){
 //     let current = start;

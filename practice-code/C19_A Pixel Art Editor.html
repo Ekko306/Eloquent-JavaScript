@@ -136,6 +136,10 @@
             })
             this.controls = controls.map( //所有的控件被建立 并且存在 this.controls里 来让他们当应用state改变的时候更新，
                 Control => new Control(state, config))
+
+            console.log(this.controls.reduce(   //调用reduce会在控件的DOM元素之间引入空格 他们不会像黏在一起
+                (a,c) => a.concat(c.dom), []
+            ))
             this.dom = elt("div", {}, this.canvas.dom, elt("br"),
                             ...this.controls.reduce(   //调用reduce会在控件的DOM元素之间引入空格 他们不会像黏在一起
                                 (a,c) => a.concat(" ", c.dom), []
@@ -253,7 +257,8 @@
         }
         save() {
             let canvas = elt("canvas")
-            drawPicture(this.picture, canvas, 1)
+            drawPicture(this.picture, canvas, 20)
+            console.log(canvas.toDataURL())
             let link = elt("a", {
                 href: canvas.toDataURL(),
                 download: "pixelart.png"
@@ -278,7 +283,8 @@
     function startLoad(dispatch) {
         let input = elt("input", {
             type: "file",
-            onchange: () => finishLoad(input.files[0], dispatch)
+            onchange: () => {console.log(input.files[0]);finishLoad(input.files[0], dispatch)
+            }
         })
         document.body.appendChild(input)
         input.click()

@@ -35,9 +35,10 @@ class SkillShareServer {
     }
 }
 
-const talkPath = /^\/talks\/([^\/]+)$/ //[^\/]这个是匹配处理/之外的 碰到/就停下来
+//[^\/]这个是匹配处理/之外的 碰到/就停下来
+const talkPath = /^\/talks\/([^\/]+)$/
 
-router.add("GET", talkPath, async (server, title) => {
+router.add("GET", /^\/talks\/([^\/]+)$/, async (server, title) => {
     if(title in server.talks) {
         return {body: JSON.stringify(server.talks[title]),
                 headers: {"Content-Type": "application/json"}}
@@ -51,6 +52,7 @@ router.add("DELETE", talkPath, async(server, title) => {
         delete server.talks[title]
         server.updated()
     }
+    return {status: 204};
 })
 
 function readStream(stream) {

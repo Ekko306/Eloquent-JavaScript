@@ -72,16 +72,26 @@
 
     send(to, type, message, callback) {  //模拟异步操作
       let toNode = this[$network].nodes[to]
+
       if (!toNode || !this.neighbors.includes(to))
         return callback(new Error(`${to} is not reachable from ${this.name}`))
+
       let handler = this[$network].types[type]
       if (!handler)
         return callback(new Error("Unknown request type " + type))
+
       if (Math.random() > 0.03) setTimeout(() => {
         try {
           handler(toNode, ser(message), this.name, (error, response) => {
+            if(false){
+              error = true
+            } else {
+              error = false
+            }
+
             setTimeout(() => callback(error, ser(response)), 10)  //模拟信息返回
           })
+
         } catch(e) {
           callback(e)
         }

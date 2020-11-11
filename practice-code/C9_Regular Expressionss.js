@@ -149,33 +149,33 @@
 //
 // console.log(/\r?\n/.exec("\r\n"))
 //
-// function parseINI(string) {
-//     // Start with an object to hold the top-level fields
-//     let result = {};
-//     let section = result;
-//     string.split(/\r?\n/).forEach(line => {  //把每一行分开
-//         let match;
-//         if (match = line.match(/^(\w+)=(.*)$/)) {  //匹配name=Vasilis match[1]是=前 match[2]是=后
-//             section[match[1]] = match[2];  //塞到对象里
-//         } else if (match = line.match(/^\[(.*)\]$/)) { //匹配括号 match[1]是括号内内容
-//             section = result[match[1]] = {}; //连等 section为空，result[match[1]]为空 这个真神奇
-//             // 把result[match[1]]指针指向section section改变了result[match[1]]也改变了
-//         } else if (!/^\s*(;.*)?$/.test(line)) {  //没有匹配到多个空格或者注释 就会报错 只可能有者三种可能性
-//             throw new Error("Line '" + line + "' is not valid.");
-//         }
-//     });
-//     return result;
-// }
-// console.log(parseINI(`
-// name=Vasilis
-// [address]
-// city=Tessaloniki`))
+function parseINI(string) {
+    // Start with an object to hold the top-level fields
+    let result = {};
+    let section = result;
+    string.split(/\r?\n/).forEach(line => {  //把每一行分开
+        let match;
+        if (match = line.match(/^(\w+)=(.*)$/)) {  //匹配name=Vasilis match[1]是=前 match[2]是=后
+            section[match[1]] = match[2];  //塞到对象里
+        } else if (match = line.match(/^\[(.*)\]$/)) { //匹配括号 match[1]是括号内内容
+            section = result[match[1]] = {}; //连等 section为空，result[match[1]]为空 这个真神奇
+            // 把result[match[1]]指针指向section section改变了result[match[1]]也改变了
+        } else if (!/^\s*(;.*)?$/.test(line)) {  //没有匹配到多个空格或者注释 就会报错 只可能有者三种可能性
+            throw new Error("Line '" + line + "' is not valid.");
+        }
+    });
+    return result;
+}
+console.log(parseINI(`
+name=Vasilis
+[address]
+city=Tessaloniki`))
 
 // console.log(/🍎{3}/.test("🍎🍎🍎"));
 // console.log(/<.>/.test("<🌹>"));
 // console.log(/<.>/u.test("<🌹>"));   //用u
 
-console.log(/\p{Script=Greek}/u.test("α"));
-console.log(/\p{Script=Arabic}/u.test("α"));
-console.log(/\p{Alphabetic}/u.test("α"));
-console.log(/\p{Alphabetic}/u.test("!"));
+// console.log(/\p{Script=Greek}/u.test("α"));
+// console.log(/\p{Script=Arabic}/u.test("α"));
+// console.log(/\p{Alphabetic}/u.test("α"));
+// console.log(/\p{Alphabetic}/u.test("!"));
