@@ -1,0 +1,451 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form method="GET" action="https://eloquentjavascript.net/example/message.html">-->
+<!--<p>Name: <input type="text" name="name"></p>-->
+<!--<p>Message: <br><textarea name="message"></textarea></p>-->
+<!--<p><button type="submit">Send</button></p>-->
+
+<!--<script>-->
+<!--    console.log(encodeURIComponent("Yes?"))-->
+<!--    console.log(decodeURIComponent("yes%3F"))-->
+<!--</script>    -->
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    // fetch("https://eloquentjavascript.net/example/data.txt").then(response => {-->
+<!--    //     console.log(response.status)-->
+<!--    //     console.log(response.headers.get("content-type"))-->
+<!--    // })-->
+<!--    // fetch("https://eloquentjavascript.net/example/data.txt")-->
+<!--    //     .then(response => response.json())-->
+<!--    //     .then(text => console.log(text))-->
+<!--    // fetch("https://eloquentjavascript.net/example/data.txt", {method: "DELETE"})-->
+<!--    //     .then(resp => console.log(resp.status))-->
+<!--    fetch("https://eloquentjavascript.net/example/data.txt", {headers: {Range: "bytes=8-19"}})-->
+<!--        .then(resp => resp.text())-->
+<!--        .then(console.log)-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p><input type="text" value="abc"> (text)</p>-->
+<!--<p><input type="password" value="abc"> (password)</p>-->
+<!--<p><input type="checkbox" checked> (checkbox)</p>-->
+<!--<p><input type="radio" value="A" name="choice">-->
+<!--    <input type="radio" value="B" name="choice" checked>-->
+<!--    <input type="radio" value="A" name="choice"> (radio)</p>-->
+<!--<p><input type="file"> (file)</p>-->
+<!--<textarea>-->
+<!--    one-->
+<!--    two-->
+<!--    three-->
+<!--</textarea>-->
+<!--<select>-->
+<!--    <option>Pancakes</option>-->
+<!--    <option>Pudding</option>-->
+<!--    <option>Ice creram</option>-->
+<!--</select>-->
+<!--    <input type="text">-->
+<!--    <script>-->
+<!--        document.querySelector("input").focus()-->
+<!--        console.log(document.activeElement.tagName)-->
+<!--        document.querySelector("input").blur()-->
+<!--        console.log(document.activeElement.tagName)-->
+<!--    </script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<input type="text" tabindex=-1> <a href=""> (help) </a>-->
+<!--<button onclick="console.log(ok)" tabindex=2>OK</button>-->
+<!--<button>I'm all right</button>-->
+<!--<button disabled>I'm out</button>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action="https://eloquentjavascript.net/example/submit.html">-->
+<!--    Name: <input type="text" name="name"><br>-->
+<!--    Password: <input type="password" name="password"><br>-->
+<!--    <button type="submit">Log in</button>-->
+<!--</form>-->
+<!--<script>-->
+<!--    let form = document.querySelector("form")-->
+<!--    console.log(form.elements[0].type)-->
+<!--    console.log(form.elements.password.type)-->
+<!--    console.log(form.elements.name.form == form)-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action="https://eloquentjavascript.net/example/submit.html">-->
+<!--   Value: <input type="text" name="value">-->
+<!--    <button type="submit">Save</button>-->
+<!--</form>-->
+<!--<script>-->
+<!--    let form = document.querySelector("form")-->
+<!--    form.addEventListener("submit", event => {-->
+<!--        console.log("Saving value", form.elements.value.value)-->
+<!--        // event.preventDefault()-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<textarea></textarea>-->
+<!--<script>-->
+<!--    let textarea = document.querySelector("textarea")-->
+<!--    textarea.addEventListener("keydown", event => {-->
+<!--        if(event.keyCode == 113) {-->
+<!--            replaceSelection(textarea, "Khasekhemwy")-->
+<!--            event.preventDefault()-->
+<!--        }-->
+<!--    })-->
+<!--    function replaceSelection(field, word) {-->
+<!--        let from = field.selectionStart, to = field.selectionEnd-->
+<!--        field.value = field.value.slice(0, from) + word + field.value.slice(to) //就是把整个内容拼接上去 不是只该一部分-->
+<!--        field.selectionStart = from + word.length-->
+<!--        field.selectionEnd = from + word.length-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<input type="text">length: <span id="length">0</span>-->
+<!--<script>-->
+<!--    let text = document.querySelector("input")-->
+<!--    let output = document.querySelector("#length")-->
+<!--    text.addEventListener("input", () => {-->
+<!--        output.textContent = text.value.length-->
+<!--    } )-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<label>-->
+<!--    -->
+<!--</label>-->
+<!--<script>-->
+<!--    let text = document.querySelector("input")-->
+<!--    let output = document.querySelector("#length")-->
+<!--    text.addEventListener("input", () => {-->
+<!--        output.textContent = text.value.length-->
+<!--    } )-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<label>-->
+<!--<input type="checkbox" id="purple"> Make this page purple-->
+<!--</label>-->
+<!--<script>-->
+<!--    let checkbox = document.querySelector("#purple")-->
+<!--    checkbox.addEventListener("change", () => {-->
+<!--        document.body.style.background = checkbox.checked ? "mediumpurple" : ""-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<label>-->
+<!--    <input type="radio" name="color" value="orange"> Orange-->
+<!--</label>-->
+<!--<label>-->
+<!--    <input type="radio" name="color" value="lightgreen"> Green-->
+<!--</label>-->
+<!--<label>-->
+<!--    <input type="radio" name="color" value="lightblue"> Blue-->
+<!--</label>-->
+<!--<script>-->
+<!--    let buttons = document.querySelectorAll("[name=color]")-->
+<!--    for (let button of Array.from(buttons)) {-->
+<!--        button.addEventListener("change", () => {-->
+<!--            document.body.style.background = button.value-->
+<!--        })-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<select multiple>-->
+<!--    <option value="1">0001</option>-->
+<!--    <option value="2">0010</option>-->
+<!--    <option value="4">0100</option>-->
+<!--    <option value="8">1000</option>-->
+<!--</select> = <span id="output">0</span>-->
+<!--<script>-->
+<!--    let select = document.querySelector("select")-->
+<!--    let output = document.querySelector("#output")-->
+<!--    select.addEventListener("change", () => {-->
+<!--        let number = 0;-->
+<!--        for(let option of Array.from(select.options)) {-->
+<!--            if (option.selected) {-->
+<!--                number += Number(option.value)-->
+<!--            }-->
+<!--            output.textContent = number-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<input type = "file">-->
+<!--<script>-->
+<!--    let input = document.querySelector("input")-->
+<!--    input.addEventListener("change", () => {-->
+<!--        if(input.files.length > 0) {-->
+<!--            let file = input.files[0]-->
+<!--            console.log("You chose", file.name)-->
+<!--            if(file.type) console.log("It has type", file.type)-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<input type="file" multiple>-->
+<!--<script>-->
+<!--    let input = document.querySelector("input")-->
+<!--    input.addEventListener("change", () => {-->
+<!--        for (let file of Array.from(input.files)) {-->
+<!--            let reader = new FileReader-->
+<!--            reader.addEventListener("load", () => {-->
+<!--                console.log("File", file.name, "start with", reader.result.slice(0, 20))-->
+<!--            })-->
+<!--            reader.readAsText(file)-->
+<!--        }-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<input type="file" multiple>-->
+<!--<script>-->
+<!--    let input = document.querySelector("input")-->
+<!--    input.addEventListener("change", () => {-->
+<!--        for (let file of Array.from(input.files)) {-->
+<!--        //     let reader = new FileReader-->
+<!--        //     reader.addEventListener("load", () => {-->
+<!--        //         console.log("File", file.name, "start with", reader.result.slice(0, 20))-->
+<!--        //     })-->
+<!--        //     reader.readAsText(file)-->
+<!--            readFileText(file)-->
+<!--        }-->
+
+<!--    })-->
+
+<!--    function readFileText(file) {-->
+<!--        return new Promise((resolve, reject) => {-->
+<!--            let reader = new FileReader-->
+<!--            reader.addEventListener("load", () => resolve(reader.result))-->
+<!--            reader.addEventListener("error", () => reject(reader.error))-->
+<!--            reader.readAsText(file)-->
+<!--        })-->
+<!--        .then((a) => {-->
+<!--            console.log(a.slice(0, 20))-->
+<!--        })-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<input type="file" multiple>-->
+<!--<script>-->
+<!--    localStorage.setItem("username", "marijn")-->
+<!--    console.log(localStorage.getItem("username"))-->
+<!--    localStorage.removeItem("username")-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--Notes: <select></select> <button>Add</button><br>-->
+<!--<textarea style="width: 100%"></textarea>-->
+<!--<script>-->
+<!--    let list = document.querySelector("select")-->
+<!--    let note = document.querySelector("textarea")-->
+
+<!--    let state-->
+<!--    function setState(newState) {-->
+<!--        list.textContent = ""-->
+<!--        for (let name of Object.keys(newState.notes)) {-->
+<!--            let option = document.createElement("option")-->
+<!--            option.textContent = name;-->
+<!--            if (newState.selected == name) option.selected = true-->
+<!--            list.appendChild(option)-->
+<!--        }-->
+<!--        note.value = newState.notes[newState.selected]-->
+
+<!--        localStorage.setItem("Notes", JSON.stringify(newState))-->
+<!--        state = newState-->
+<!--    }-->
+<!--    setState(JSON.parse(localStorage.getItem("Notes")) || {-->
+<!--        notes: {"shopping list": "Carrots\nRaisins"},-->
+<!--        selected: "shopping list"-->
+<!--    })-->
+
+<!--    list.addEventListener("change", () => { //新的选择列表 list的value加进去-->
+<!--        setState({notes: state.notes, selected: list.value});-->
+<!--    });-->
+<!--    note.addEventListener("change", () => { //改变了note的内容 change是失去焦点不同 然后把新的加进去-->
+<!--        setState({-->
+<!--            notes: Object.assign({}, state.notes,-->
+<!--                {[state.selected]: note.value}),  //这个 把旧的state.notes和新的{....}拷贝到前面空的-->
+<!--            selected: state.selected-->
+<!--        });-->
+<!--    });-->
+<!--    document.querySelector("button").addEventListener("click", () => { //新加一个 一开始值为空-->
+<!--        let name = prompt("Note name");-->
+<!--        if (name) setState({-->
+<!--            notes: Object.assign({}, state.notes, {[name]: ""}), //有个问题 后面两个参数有相同的 东西 只会保留一个（后面的）-->
+<!--            selected: name-->
+<!--        })-->
+<!--    })-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    fetch("https://eloquentjavascript.net/18_http.html")
+        .then(r => r.text()) //晓得了 r是返回的值 调用r.text()返回一个pormise类 底下是他的resolve方法
+        .then(text => { //这里是 resolve
+            console.log(`The page starts with ${text.slice(0, 15)}`)
+        })
+</script>
+</body>
+</html>

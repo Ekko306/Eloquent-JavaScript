@@ -1,0 +1,239 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>My home page</h1>-->
+<!--<p>Hello, I am Marijn and this is my home page.</p>-->
+<!--<p>I also wrote a book! Read it-->
+<!--    <a href="http://eloquentjavascript.net">here</a>.</p>-->
+<!--<script>-->
+<!--    function talksAbout(node, string) {-->
+<!--        if (node.nodeType == Node.ELEMENT_NODE) {-->
+<!--            for (let i=0; i< node.childNodes.length; i++) {-->
+<!--                console.log(node.childNodes)-->
+<!--                if(talksAbout(node.childNodes[i], string)) {-->
+<!--                    return true-->
+<!--                }-->
+<!--            }-->
+<!--            return false;-->
+<!--        } else if (node.nodeType == Node.TEXT_NODE) {-->
+<!--            return node.nodeValue.indexOf(string) > -1-->
+<!--        }-->
+<!--    }-->
+<!--    let link = document.body.getElementsByTagName("a")[0];-->
+<!--    console.log(link.href);-->
+<!--    console.log(talksAbout(document.body, "book"))-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>One</p>-->
+<!--<p>Two</p>-->
+<!--<p>Three</p>-->
+
+<!--<script>-->
+<!--    let paragraphs = document.body.getElementsByTagName("p");-->
+<!--    document.body.insertBefore(paragraphs[2], paragraphs[0]);-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p>The <img src="https://eloquentjavascript.net/img/cat.png" alt="Cat"> in the-->
+<!--    <img src="https://eloquentjavascript.net/img/hat.png" alt="Hat">.</p>-->
+<!--<p><button onclick="replaceImages()">Replace</button> </p>-->
+<!--<script>-->
+<!--    function replaceImages(){-->
+<!--        let images = document.body.getElementsByTagName("img")-->
+<!--        for (let i = 0; i<=images.length - 1 ; i++) {-->
+<!--            let image = images[i]-->
+<!--            if(image.alt) {-->
+<!--                let text = document.createTextNode(image.alt)-->
+<!--                image.parentNode.replaceChild(text, image)-->
+<!--            }-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<blockquote id="quote">-->
+<!--    No book can ever be finished. While working on it we learn just enough to find-->
+<!--    it immature the moment we turn away it.-->
+<!--</blockquote>-->
+<!--<script>-->
+<!--    function elt(type, ...children) {-->
+<!--        let node = document.createElement(type);-->
+<!--        for (let child of children) {-->
+<!--            if (typeof child == "string") node.appendChild(document.createTextNode(child))-->
+<!--            else node.appendChild(child)-->
+<!--        }-->
+<!--        return node-->
+<!--    }-->
+
+<!--    document.getElementById("quote").appendChild(-->
+<!--        elt("footer", "-",       //footer是总类型 后面的字符串和elt都是 children 不停往后加-->
+<!--            elt("strong", "Karl Popper"),-->
+<!--            ",preface to the second edition of",-->
+<!--            elt("em", "The Open Society and Its Enemies"),-->
+<!--            ", 1950")-->
+<!--    )-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p data-classified="secret" >The launch code is 00000000</p>-->
+<!--<p data-classified="unclassified">I have two feet.</p>-->
+<!--<script>-->
+<!--    let paras = document.body.getElementsByTagName("p")-->
+<!--    for(let para of Array.from(paras)){-->
+<!--        if(para.getAttribute("data-classified") == "secret") {-->
+<!--            para.remove()-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p style="border: 3px solid red">-->
+<!--    I'm boxed in-->
+<!--</p>-->
+<!--<script>-->
+<!--    let para = document.body.getElementsByTagName("p")[0]-->
+<!--    console.log("clientHeight:", para.clientHeight)-->
+<!--    console.log("offsetHeight:",para.offsetHeight)-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p><span id="one"></span></p>-->
+<!--<p><span id="two"></span></p>-->
+<!--<script>-->
+<!--    function time(name, action) {-->
+<!--        let start = Date.now()-->
+<!--        action();-->
+<!--        console.log(name, "took", Date.now() - start, "ms")-->
+<!--    }-->
+
+<!--    time("native", ()=>{-->
+<!--        let target = document.getElementById("one")-->
+<!--        while (target.offsetWidth < 2000) {  //这里需要重复获取现在的offwidth 每次要重新计算-->
+<!--            target.appendChild(document.createTextNode("X"))-->
+<!--        }-->
+<!--    })-->
+
+<!--    time("clever", function () {-->
+<!--        let target = document.getElementById("two");-->
+<!--        target.appendChild(document.createTextNode("XXXXX"))-->
+<!--        let total = Math.ceil(2000 / (target.offsetWidth / 5))-->
+<!--        target.firstChild.nodeValue = "X".repeat(total)   //这里就是一次性计算好 要重复多少次 然后一次渲染就会快很多-->
+<!--    })-->
+
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<p><a href=".">Normal link</a></p>-->
+<!--<p><a href="." style="color: green">Green link</a></p>-->
+
+<!--This text is displayed <strong>inline</strong>,-->
+<!--<strong style="display: block">as a block</strong>, and-->
+<!--<strong style="display: none">not at all</strong>.-->
+<!--<p id="para" style="color: purple">-->
+<!--    Nice text-->
+<!--</p>-->
+<!--<style>-->
+<!--    strong {-->
+<!--        font-style: italic;-->
+<!--        color: gray;-->
+<!--    }-->
+<!--</style>-->
+<!--<p>Now <strong>strong text</strong> is italic and gray.</p>-->
+
+<!--<script>-->
+<!--    let para = document.getElementById("para");-->
+<!--    console.log(para.style.color);-->
+<!--    para.style.color = "magenta";-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p style="text-align: center">
+    <img src="https://eloquentjavascript.net/img/cat.png" style="position: relative"
+</p>
+<script>
+    let cat = document.querySelector("img")
+    let angle = Math.PI / 2;
+    function animate(time, lastTime){
+        if(lastTime != null) {
+            angle += (time -lastTime) *0.001
+        }
+        cat.style.top = (Math.sin(angle) * 20) + "px"
+        cat.style.left = (Math.cos(angle) * 200) + "px"
+        requestAnimationFrame(newTime => animate(newTime, time))
+    }
+    requestAnimationFrame(animate)   //request
+</script>
+
+</body>
+</html>
