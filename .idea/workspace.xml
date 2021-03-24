@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9715a2e-ceb0-4ac9-a222-eb78d36a2089" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exercises/C10_Modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C11_Asynchronous Programming.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C12_Project: A Programming Language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C13_JavaScript and the Browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C14_The Document Object Model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C15_Handling Events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C16_Project: A Platform Game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C17_Drawing on Canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C18_HTTP and Forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C19_Project: A Pixel Art Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C1_Values, Types, and Operators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C20_Node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C21_Project: Skill-Sharing Website.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C2_Program Structure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C3_Functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C4_Data Structures: Objects and Arrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C5_Higher-Order Functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C6_The Secret Life of Objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C7_Project: A Robot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C8_Bugs and Errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/C9_Regular Expressions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/dependencies/07_robot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/dependencies/animatevillage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/dependencies/crow-tech.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/dependencies/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmind/Eloquent-JavaScript.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmind/EloquentJS.xmind" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,58 +55,69 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XTiPJxSwg8WC0dAbQaVgX3U10Q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.13.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercises" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
-  <component name="RunManager" selected="Node.js.C12_Project: A Programming Language.js">
-    <configuration name="C16_A Platform Game.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Eloquent Javascript/C16_A Platform Game.html" useBuiltInWebServerPort="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercises/dependencies" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercises" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.temp.js (1)">
+    <configuration name="C11_Asynchronous Programming.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/exercises/C11_Asynchronous Programming.js" working-dir="$PROJECT_DIR$/exercises">
       <method v="2" />
     </configuration>
-    <configuration name="C19_A Pixel Art Editor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Eloquent Javascript/C19_A Pixel Art Editor.html" useBuiltInWebServerPort="true">
+    <configuration name="C7_Project: A Robot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/exercises/C7_Project: A Robot.js" working-dir="$PROJECT_DIR$/exercises">
       <method v="2" />
     </configuration>
-    <configuration name="C11_Asynchronous Programming.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/C11_Asynchronous Programming.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="C12_Project: A Programming Language.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/C12_Project: A Programming Language.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="C7_Robot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/C7_Robot.js" working-dir="$PROJECT_DIR$">
+    <configuration name="C8_Bugs and Errors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/exercises/C8_Bugs and Errors.js" working-dir="$PROJECT_DIR$/exercises">
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="C20_node.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="temp.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/exercises/temp.js" working-dir="$PROJECT_DIR$/exercises">
+      <method v="2" />
+    </configuration>
+    <configuration name="temp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/xmind/temp.js" working-dir="$PROJECT_DIR$/xmind">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.C16_A Platform Game.html" />
-      <item itemvalue="JavaScript Debug.C19_A Pixel Art Editor.html" />
       <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="Node.js.C7_Project: A Robot.js" />
+      <item itemvalue="Node.js.C8_Bugs and Errors.js" />
       <item itemvalue="Node.js.C11_Asynchronous Programming.js" />
-      <item itemvalue="Node.js.C12_Project: A Programming Language.js" />
-      <item itemvalue="Node.js.C7_Robot.js" />
+      <item itemvalue="Node.js.temp.js" />
+      <item itemvalue="Node.js.temp.js (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.C12_Project: A Programming Language.js" />
+        <item itemvalue="Node.js.temp.js (1)" />
+        <item itemvalue="Node.js.temp.js" />
         <item itemvalue="Node.js.C11_Asynchronous Programming.js" />
-        <item itemvalue="JavaScript Debug.C19_A Pixel Art Editor.html" />
-        <item itemvalue="Node.js.C7_Robot.js" />
-        <item itemvalue="JavaScript Debug.C16_A Platform Game.html" />
+        <item itemvalue="Node.js.C8_Bugs and Errors.js" />
+        <item itemvalue="Node.js.C7_Project: A Robot.js" />
       </list>
     </recent_temporary>
   </component>
@@ -285,97 +323,75 @@
       <workItem from="1606821044027" duration="332000" />
       <workItem from="1607763263342" duration="1000" />
       <workItem from="1608367588042" duration="11000" />
-      <workItem from="1615943655042" duration="270000" />
+      <workItem from="1615943655042" duration="2360000" />
+      <workItem from="1615967007630" duration="3998000" />
+      <workItem from="1615993194024" duration="1108000" />
+      <workItem from="1615994524202" duration="2748000" />
+      <workItem from="1616054677761" duration="1735000" />
+      <workItem from="1616074750034" duration="25000" />
+      <workItem from="1616076443053" duration="668000" />
+      <workItem from="1616117241516" duration="123000" />
+      <workItem from="1616120779843" duration="616000" />
+      <workItem from="1616139346581" duration="218000" />
+      <workItem from="1616164581756" duration="96000" />
+      <workItem from="1616205353879" duration="259000" />
+      <workItem from="1616219897816" duration="889000" />
+      <workItem from="1616225370786" duration="398000" />
+      <workItem from="1616244620171" duration="265000" />
+      <workItem from="1616308030195" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="309" key="GridCell.Tab.0.bottom" timestamp="1605098492950">
+    <state x="432" y="126" key="#Unnamed" timestamp="1615944376531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605098492950" />
-    <state width="1419" height="171" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597059790912" />
-    <state width="1419" height="309" key="GridCell.Tab.0.center" timestamp="1605098492949">
+    <state x="432" y="126" key="#Unnamed/0.0.1440.900@0.0.1440.900" timestamp="1615944376531" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615944392465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605098492949" />
-    <state width="1419" height="171" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597059790907" />
-    <state width="1419" height="309" key="GridCell.Tab.0.left" timestamp="1605098492948">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1615944392465" />
+    <state x="416" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616117249618">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605098492948" />
-    <state width="1419" height="171" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597059790899" />
-    <state width="1419" height="309" key="GridCell.Tab.0.right" timestamp="1605098492950">
+    <state x="416" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1616117249618" />
+    <state width="1419" height="157" key="GridCell.Tab.0.bottom" timestamp="1616117364252">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605098492950" />
-    <state width="1419" height="171" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597059790910" />
-    <state width="1419" height="309" key="GridCell.Tab.1.bottom" timestamp="1605098492953">
+    <state width="1419" height="157" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616117364252" />
+    <state width="1419" height="157" key="GridCell.Tab.0.center" timestamp="1616117364251">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605098492953" />
-    <state width="1419" height="171" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597031510393" />
-    <state width="1419" height="309" key="GridCell.Tab.1.center" timestamp="1605098492952">
+    <state width="1419" height="157" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1616117364251" />
+    <state width="1419" height="157" key="GridCell.Tab.0.left" timestamp="1616117364249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1605098492952" />
-    <state width="1419" height="171" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1597031510392" />
-    <state width="1419" height="309" key="GridCell.Tab.1.left" timestamp="1605098492951">
+    <state width="1419" height="157" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1616117364249" />
+    <state width="1419" height="157" key="GridCell.Tab.0.right" timestamp="1616117364252">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1605098492951" />
-    <state width="1419" height="171" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1597031510391" />
-    <state width="1419" height="309" key="GridCell.Tab.1.right" timestamp="1605098492953">
+    <state width="1419" height="157" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1616117364252" />
+    <state x="430" y="164" key="MultipleFileMergeDialog" timestamp="1615943978343">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605098492953" />
-    <state width="1419" height="171" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1597031510392" />
-    <state width="1419" height="309" key="GridCell.Tab.2.bottom" timestamp="1605098492956">
+    <state x="430" y="164" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1615943978343" />
+    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616221750372">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605098492956" />
-    <state width="1419" height="171" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597059792113" />
-    <state width="1419" height="309" key="GridCell.Tab.2.center" timestamp="1605098492955">
+    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1616221750372" />
+    <state x="134" y="191" width="659" height="518" key="find.popup" timestamp="1616297803800">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1605098492955" />
-    <state width="1419" height="171" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1597059792111" />
-    <state width="1419" height="309" key="GridCell.Tab.2.left" timestamp="1605098492954">
+    <state x="134" y="191" width="659" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1616297803800" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615970608194">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="309" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1605098492954" />
-    <state width="1419" height="171" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1597059792110" />
-    <state width="1419" height="309" key="GridCell.Tab.2.right" timestamp="1605098492955">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="309" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1605098492955" />
-    <state width="1419" height="171" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1597059792112" />
-    <state width="1419" height="309" key="GridCell.Tab.3.bottom" timestamp="1605098492959">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="309" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605098492959" />
-    <state width="1419" height="171" key="GridCell.Tab.3.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597031510396" />
-    <state width="1419" height="309" key="GridCell.Tab.3.center" timestamp="1605098492958">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="309" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1605098492958" />
-    <state width="1419" height="171" key="GridCell.Tab.3.center/0.23.1440.877@0.23.1440.877" timestamp="1597031510395" />
-    <state width="1419" height="309" key="GridCell.Tab.3.left" timestamp="1605098492957">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="309" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1605098492957" />
-    <state width="1419" height="171" key="GridCell.Tab.3.left/0.23.1440.877@0.23.1440.877" timestamp="1597031510395" />
-    <state width="1419" height="309" key="GridCell.Tab.3.right" timestamp="1605098492958">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="309" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1605098492958" />
-    <state width="1419" height="171" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1597031510396" />
-    <state x="-27" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1596856170340">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="-27" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596856170340" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1615970608194" />
   </component>
 </project>
